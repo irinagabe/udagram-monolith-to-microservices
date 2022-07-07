@@ -13,7 +13,7 @@ script:
   # Tag
   - docker tag udagram-api-feed irinagabe/udagram-api-feed:latest
   - docker tag udagram-api-user irinagabe/udagram-api-user:latest
-  - docker tag udagram-api-feed irinagabe/udagram-api-feed:latest
+  - docker tag udagram-frontend irinagabe/udagram-frontend:latest
   - docker tag reverseproxy irinagabe/reverseproxy:v1
 after_success:
   # Push
