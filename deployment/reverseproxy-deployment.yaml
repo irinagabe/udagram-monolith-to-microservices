@@ -17,7 +17,7 @@ spec:
           image: docker.io/irinagabe/reverseproxy
           imagePullPolicy: Always
           ports:
-            - containerPort: 80
+            - containerPort: 8080
           resources:
             requests:
               memory: '64Mi'
